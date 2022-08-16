@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap Task2!</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 bg-white">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Demo
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                pages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Account
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">My Network</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><button class="bg-secondary p-1">
+                  <i class="fa-solid fa-message"></i></button
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <button class="bg-secondary p-1">
+                  <i class="fa-solid fa-gear"></i></button
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><button class="bg-secondary p-1">
+                  <i class="fa-solid fa-bell"></i></button
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><img
+                  src="member8.png"
+                  alt=""
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-text-top"
+                  style="border-radius: 3px"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN SECTION  -->
+    <div class="main my-3">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- FIRST SECTION  -->
+          <div class="col-3 first p-1">
+            <div class="child1">
+              <div>
+                <img src="member8.png" alt="" width="60" height="65" />
+              </div>
+              <div class="my-2">
+                <h5>Sam Lanson</h5>
+                <p>Web Developer at Webestica</p>
+              </div>
+              <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+              <div class="postsss d-flex justify-content-around">
+                <div class="1">
+                  <h6>256</h6>
+                  <p>Post</p>
+                </div>
+                <div class="2">
+                  <h6>2.5K</h6>
+                  <p>Followers</p>
+                </div>
+                <div class="3">
+                  <h6>356</h6>
+                  <p>Following</p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="feed py-1 ps-3">
+              <p><a href="">Feed</a></p>
+              <p><a href="">Connections</a></p>
+              <p><a href="">latest news</a></p>
+              <p><a href="">Events</a></p>
+              <p><a href="">Groups</a></p>
+              <p><a href="">Notifications</a></p>
+            </div>
+          </div>
+          <!-- second section  -->
+          <div class="col-6 second p-1">
+            <!-- FIRST CHILD SECTION  -->
+            <div class="firstChildSection d-flex justify-content-around">
+              <div><img src="photo1.jpeg" alt="" /></div>
+              <div><img src="photo3.jpeg" alt="" /></div>
+              <div><img src="photo2.jpeg" alt="" /></div>
+            </div>
+            <!-- SECOND CHILD SECTION  -->
+            <div
+              class="secondChildSection my-4 p-1 bg-white"
+              style="width: 100%"
+            >
+              <div class="d-flex">
+                <div style="width: 10%; height: 60px">
+                  <img
+                    src="userIcon.png"
+                    alt=""
+                    style="width: 100%; height: 100%"
+                  />
+                </div>
+                <div style="width: 100%">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Share Your Thoughts..."
+                  />
+                </div>
+              </div>
+              <div class="my-2">
+                <button>
+                  <i class="fa-solid fa-image me-1" style="color: green"></i
+                  >Photo
+                </button>
+                <button>
+                  <i class="fa-solid fa-video me-1" style="color: blue"></i
+                  >Video
+                </button>
+                <button>
+                  <i class="fa-solid fa-calendar me-1" style="color: red"></i
+                  >Event
+                </button>
+                <button>
+                  <i
+                    class="fa-solid fa-face-grin me-1"
+                    style="color: yellow"
+                  ></i
+                  >Feeling
+                </button>
+              </div>
+            </div>
+            <!-- THIRD CHILD SECTION  -->
+            <div
+              class="thirdChildSection bg-white p-2"
+              style="border-radius: 7px"
+            >
+              <h6>Lori Ferehng</h6>
+              <p class="text-secondary">Web Developer at Webestica</p>
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+                porro distinctio vel aspernatur vitae veniam cumque excepturi ad
+                cum unde.
+              </p>
+              <div style="width: 97%; height: auto">
+                <img
+                  src="post.jpg"
+                  alt=""
+                  style="width: 100%; height: 100%; border-radius: 7px"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- THIRD SECTION  -->
+          <div class="col-3">
+            <div class="firstchild bg-white p-2">
+              <h4 class="mb-3">Who to Follow</h4>
+              <div class="d-flex">
+                <div style="width: 22%; height: 12%" class="userIcon">
+                  <img
+                    src="userIcon.png"
+                    alt=""
+                    style="width: 100%; height: 100%"
+                  />
+                </div>
+                <div>
+                  <h6>Judy Nguann</h6>
+                  <p class="text-secondary">News Anchor</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div style="width: 22%; height: 12%">
+                  <img
+                    src="userIcon.png"
+                    alt=""
+                    style="width: 100%; height: 100%"
+                  />
+                </div>
+                <div>
+                  <h6>Amanda Reed</h6>
+                  <p class="text-secondary">Web Developer</p>
+                </div>
+              </div>
+
+              <div class="d-flex">
+                <div style="width: 22%; height: 12%">
+                  <img
+                    src="userIcon.png"
+                    alt=""
+                    style="width: 100%; height: 100%"
+                  />
+                </div>
+                <div>
+                  <h6>Billy Vasquezz</h6>
+                  <p class="text-secondary">News Anchor</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div style="width: 22%; height: 12%">
+                  <img
+                    src="userIcon.png"
+                    alt=""
+                    style="width: 100%; height: 100%"
+                  />
+                </div>
+                <div>
+                  <h6>lori Ferguson</h6>
+                  <p class="text-secondary">News Anchor</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECOND CHILD SECTION  -->
+            <div class="secondChild bg-white p-3 my-4 overflow-hidden">
+              <h5 class="mb-3">Today's news</h5>
+              <h6 class="my-2">Ten Questions You should Answer Truth fully</h6>
+
+              <h6 class="my-2">Lorem ipsum dolor sit amet consectetur.</h6>
+              <h6 class="my-2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing.
+              </h6>
+              <h6 class="my-2">Lorem ipsum dolor sit amet.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
